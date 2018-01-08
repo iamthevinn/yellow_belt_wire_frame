@@ -1,0 +1,129 @@
+﻿body {
+  width: 960px;
+  background-color: #1B191C; 
+}
+
+.header {
+  width: 960px;
+  height: 80px;
+  background: #1B191C;
+  color: white;
+  text-align: right;
+  padding: 10px;
+}
+
+#logo {
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  background-color: #4B494C
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  vertical-align: text-top;
+  color: darkorange;
+}
+
+.row {
+  width: 960px;
+  height: 100px;
+  background: #1B191C;
+  color: white;
+  padding: 10px;
+}
+
+.buyNow {
+  max-width: inherit;
+  height: 80px;
+  background: black;
+  color: white;
+  padding: 30px;
+  font-family: "Verdana", Verdana, serif;
+}
+
+#portfolioAndProjects {
+  width: 100%;
+}
+
+#portfolioAndProjects div {
+  width: 47%;
+  display: inline-block;
+  padding: 10px;
+}
+
+#left {
+  color: white;
+}
+
+#right {
+  text-align: right;
+  font-style: italic;
+  color: darkorange;
+}
+
+#design-cast {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio {
+  padding: 8px;
+}
+
+#portfolioImage  {
+  border: 3px solid grey;
+}
+
+div.portfolio {
+  float: left;
+  margin: 2px;
+  width: 220px;
+  color: white;
+  font-size: 12px;
+}
+
+.portfolioHeader {
+  color: orange;
+}
+
+.class p {
+    text-align: left;
+}
+
+.advertisementDescription {
+  color: white;
+}
+
+footer {
+  text-align: right;
+  color: gray;
+}
+
+
